@@ -1,0 +1,316 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+
+
+*{
+    box-sizing: border-box;
+}
+
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    background-color: var(--white-color);
+}
+
+:root{
+    --red-color: #a40101;
+    --cian-color:#2ca3ab;
+    --gray-color: #c4c4c4;
+    --orange-color:#f3610e;
+    --blue-color: #1d1b45;
+    --black-color: rgb(0, 0, 0);
+    --white-color: #ffffff;
+}
+
+h1, h2, h3{
+    font-family: 'Poppins', sans-serif;
+    color: var(--black-color);
+}
+a{
+    font-family: 'Poppins', sans-serif;
+    resize: 10px; 
+    color: var(--white-color);
+}
+
+p{
+    color: var(--gray-color);
+    text-align: justify;
+}
+
+
+.header{
+    display: flex;
+    flex-wrap: wrap;
+flex-direction: row-reverse;
+align-content: center;
+justify-content: space-between;
+margin-left: 20px;
+margin-top: 25px;
+margin-right: 30px;
+    
+}
+.geo{
+    color: var(--orange-color);
+    fill: #f3610e;
+    background-color: #2ca3ab;
+}
+.boton-azul {
+
+ 
+    height: 40px;
+    
+        background-color: var(--blue-color);
+        border-radius: 20px;
+        font-weight: bold;
+        padding: 0.5rem 1rem;
+        cursor: pointer;
+        color:var(--white-color);
+        align-content: center;
+    }
+
+.boton-azul img{
+    color: var(--white-color);
+    
+}
+    .direccion{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+        left:200px;
+        top:-40px;
+        fill: var(--orange-color);
+    }
+    .direccion img{
+        fill: var(--orange-color);
+    }  
+
+.llamada{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    left:100px;
+    top:-40px;
+ 
+}
+
+.llamada img{
+    fill: var(--orange-color);
+}
+
+.telefono
+{
+fill:var(--red-color);
+width: 20px;
+}
+
+
+.header p{
+    color: var(--gray-color);
+
+}
+ 
+.logo {
+    
+    max-width: 270px;
+    width: 100%;
+   
+    position: relative;
+    top: 70px;
+}
+
+.vacuna{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top:70px;
+    left:410px;
+}
+.vacuna img{
+    color: #f3610e;
+}
+
+.portada{
+    width: 100%;
+    height: auto;
+   display: flex;
+   justify-content: center;
+   position: absolute;
+}
+
+#banner{
+    display: flex;
+    flex-wrap: wrap;
+flex-direction: column;
+
+justify-content: space-around;
+
+}
+
+.lema{
+    font-size: 35px;
+    position: relative;
+    display: flex;
+
+margin-left: 100px;
+margin-top: 50px;
+margin-bottom: 10px;
+}
+.covid{
+    font-size: 50px;
+    position: relative;
+    display: flex;
+justify-content: flex-start;
+margin-top: 0px;
+margin-left: 300px;
+
+}
+.boton{
+    position: relative;
+    display: flex;
+justify-content: flex-start;
+margin-top: 0px;
+
+margin-left: 400px;
+
+}
+.lema h1{
+    color: var(--orange-color);
+  
+
+}
+.lema h2{
+color:var(--black-color);
+
+}
+.franja img{
+    width: 1550px;
+    height: 130px;
+    position: absolute;
+}
+.franja1 img{
+    width: 1550px;
+    height: 130px;
+    position: relative;
+    opacity:0.4;
+filter:alpha(opacity=50);
+}
+
+
+.fondo{
+    width: 100%;
+    height: auto;
+   display: flex;
+   justify-content: center;
+   position: absolute;
+    opacity:0.2;
+filter:alpha(opacity=20); /* For IE8 and earlier */     
+            
+ 
+}
+
+
+#seccion{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.info p{
+    margin: 20px;
+    text-align: center;
+    color: var(--black-color);
+    }
+    .oms img
+       
+    { 
+        display: flex;
+        justify-content: center;
+        border-radius: 50%;
+        max-width: 70%;
+        width: 70px;
+    }
+.info img
+       
+        { 
+            border-radius: 50%;
+            max-width: 35%;
+            width: 35px;
+        }
+
+        .info{
+            padding: 20px;
+            margin-right: 40px;
+            display: flex;
+            justify-content: center;
+      
+        }
+       
+.imagen{
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    max-width: 70%;
+    width: 70px; 
+}
+        .info p{
+            padding: 10px;
+            margin-right: 100px;
+            margin-left: 100px;
+            color: var(--black-color);
+        }
+       
+        .quehacer{
+      
+        }  
+       
+
+ .quehacer img{
+     width: 40px;
+     height: 40px;
+ }  
+ .oms{
+    width: 60px;
+    height: 60px;
+}  
+    
+
+.titulos{
+    background-color:#1b1b1b;
+ 
+    }
+
+    .titulos h2{
+        background-color:#030211;
+        height: 200%;
+        width: 100%;
+        color: var(--white-color);
+        }
+.foot{
+    background-color:var(--black-color);
+   
+    display: flex;
+    justify-content:center;
+    padding: 2rem;
+   
+    text-align: center;
+}
+
+.foot h3{
+    display: flex;
+    justify-content: center;
+   color:var(--white-color);
+   
+    
+}
+
+
+
+
+
+
+
+
